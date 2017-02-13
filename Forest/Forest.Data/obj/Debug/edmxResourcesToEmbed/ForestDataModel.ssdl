@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ForestDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Music_category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Genre" Type="nchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Music_Recording">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Artist" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Genre" Type="int" Nullable="false" />
+    <Property Name="ImageName" Type="nvarchar" MaxLength="50" />
+    <Property Name="NumTracks" Type="int" />
+    <Property Name="Price" Type="float" Nullable="false" />
+    <Property Name="StockCount" Type="int" Nullable="false" />
+    <Property Name="Released" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ForestDataModelStoreContainer">
+    <EntitySet Name="Music_category" EntityType="Self.Music_category" Schema="b1037178" store:Type="Tables" />
+    <EntitySet Name="Music_Recording" EntityType="Self.Music_Recording" Schema="b1037178" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
