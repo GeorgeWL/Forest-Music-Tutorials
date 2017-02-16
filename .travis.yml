@@ -1,0 +1,6 @@
+language: csharp
+
+# whitelist
+branches:  
+  only:
+    - master
