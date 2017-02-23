@@ -65,7 +65,8 @@
             @Html.DisplayFor(modelItem => item.Released)
         </td>
         <td>
-            @Html.ActionLink("Edit", "EditMusicRecording", new { id=item.Id }) |
+            @Html.ActionLink("Add", "AddMusicRecording", new { controller = "MusicAdmin", id = item.Id }) |
+            @Html.ActionLink("Edit", "EditMusicRecording", new { controller = "MusicAdmin", id=item.Id }) |
             @Html.ActionLink("Details", "Recording", new { id=item.Id }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.Id })
         </td>

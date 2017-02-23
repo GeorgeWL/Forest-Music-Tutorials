@@ -22,7 +22,7 @@ namespace Forest.Services.IService
         Music_Recording GetMusicRecording(int id);
         //void to add the edit method to the Music_recording.cs
         void EditMusicRecording(Music_Recording recording);
-       // void AddMusicRecording(Music_Recording recording);
+        void AddMusicRecording(Music_Recording recording);
         //to implement next
     }  
 }

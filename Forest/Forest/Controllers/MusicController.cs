@@ -93,9 +93,9 @@ namespace Forest.Controllers
                 return View();
             }
         }
-        public ActionResult Recordings(int genre) 
+        public ActionResult Recordings(int id) 
         {
-            return View(_musicService.GetMusicRecordings(genre));
+            return View(_musicService.GetMusicRecordings(id));
         }
     }
 }
