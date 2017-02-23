@@ -23,6 +23,7 @@ namespace Forest.Data.IDAO
         //for the editing of any recording
         void EditMusicRecording(Music_Recording recording);
         void AddMusicRecording(Music_Recording recording);
+        void DeleteMusicRecording(Music_Recording recording);
     }
     
 }

@@ -41,5 +41,9 @@ namespace Forest.Services.Service
             _musicDAO.AddMusicRecording(recording);
         }
         //that's a step ahead, knowing that edit works the same as add in many ways, I put that in ready.
+        public void DeleteMusicRecording(Music_Recording recording)
+        {
+            _musicDAO.DeleteMusicRecording(recording);
+        }
     }
 }

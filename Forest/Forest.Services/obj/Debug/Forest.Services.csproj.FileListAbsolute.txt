@@ -18,3 +18,12 @@ F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Services\bin\Debug\EntityFra
 F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Services\obj\Debug\Forest.Services.csprojResolveAssemblyReference.cache
 F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Services\obj\Debug\Forest.Services.dll
 F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Services\obj\Debug\Forest.Services.pdb
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Services\bin\Debug\Forest.Services.dll
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Services\bin\Debug\Forest.Services.pdb
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Services\bin\Debug\Forest.Data.dll
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Services\bin\Debug\EntityFramework.dll
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Services\bin\Debug\Forest.Data.pdb
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Services\bin\Debug\EntityFramework.xml
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Services\obj\Debug\Forest.Services.csprojResolveAssemblyReference.cache
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Services\obj\Debug\Forest.Services.dll
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Services\obj\Debug\Forest.Services.pdb

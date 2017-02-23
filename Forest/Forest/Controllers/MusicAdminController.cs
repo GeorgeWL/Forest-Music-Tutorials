@@ -62,5 +62,12 @@ namespace Forest.Controllers
             return View();
             }        
         }
+        [HttpGet]
+        public ActionResult DeleteMusicRecording(int id)
+        {
+            return View("Recordings");
+        }
+        //[HttpPost]
+        //will add in a minute, need to eat.
     }
 }

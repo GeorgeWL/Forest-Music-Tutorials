@@ -110,5 +110,24 @@ namespace Forest.Data.DAO
             _context.Music_Recording.Add(recording);
             _context.SaveChanges();
         }
+        public void DeleteMusicRecording(Music_Recording recording)
+        {
+            Music_Recording record =
+                            (from rec
+                             in _context.Music_Recording
+                             where rec.Id == recording.Id
+                             select rec).ToList<Music_Recording>().First();
+            //change from context of record to equal recording 
+            record.ImageName = recording.ImageName;
+            record.NumTracks = recording.NumTracks;
+            record.Price = recording.Price;
+            record.Released = recording.Released;
+            record.StockCount = recording.StockCount;
+            record.Title = recording.Title;
+            record.Genre = recording.Genre;
+            record.Artist = recording.Artist;
+            _context.Music_Recording.Remove(recording);
+            _context.SaveChanges();
+        }
     }
 }

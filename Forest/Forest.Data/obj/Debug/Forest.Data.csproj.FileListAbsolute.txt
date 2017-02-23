@@ -20,3 +20,13 @@ F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\EntityFramewo
 F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\obj\Debug\Forest.Data.csprojResolveAssemblyReference.cache
 F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\obj\Debug\Forest.Data.dll
 F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\obj\Debug\Forest.Data.pdb
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\Forest.Data.dll.config
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\Forest.Data.dll
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\Forest.Data.pdb
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\EntityFramework.dll
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\EntityFramework.xml
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\obj\Debug\Forest.Data.csprojResolveAssemblyReference.cache
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\obj\Debug\Forest.Data.dll
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\obj\Debug\Forest.Data.pdb
