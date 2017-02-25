@@ -36,3 +36,12 @@ F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Services\obj\Debug\Forest.Ser
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Services\obj\Debug\Forest.Services.csprojResolveAssemblyReference.cache
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Services\obj\Debug\Forest.Services.dll
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Services\obj\Debug\Forest.Services.pdb
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Services\bin\Debug\Forest.Services.dll
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Services\bin\Debug\Forest.Services.pdb
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Services\bin\Debug\Forest.Data.dll
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Services\bin\Debug\EntityFramework.dll
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Services\bin\Debug\Forest.Data.pdb
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Services\bin\Debug\EntityFramework.xml
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Services\obj\Debug\Forest.Services.csprojResolveAssemblyReference.cache
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Services\obj\Debug\Forest.Services.dll
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Services\obj\Debug\Forest.Services.pdb

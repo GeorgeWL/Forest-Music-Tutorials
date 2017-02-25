@@ -40,3 +40,13 @@ F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\obj\Debug\Forest.Data.pd
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\obj\Debug\Forest.Data.csprojResolveAssemblyReference.cache
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\obj\Debug\Forest.Data.dll
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\obj\Debug\Forest.Data.pdb
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Data\bin\Debug\Forest.Data.dll.config
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Data\bin\Debug\Forest.Data.dll
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Data\bin\Debug\Forest.Data.pdb
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Data\bin\Debug\EntityFramework.dll
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Data\bin\Debug\EntityFramework.xml
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Data\obj\Debug\Forest.Data.csprojResolveAssemblyReference.cache
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Data\obj\Debug\Forest.Data.dll
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Forest.Data\obj\Debug\Forest.Data.pdb

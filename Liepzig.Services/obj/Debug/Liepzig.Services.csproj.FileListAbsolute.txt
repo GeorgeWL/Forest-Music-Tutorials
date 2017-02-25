@@ -1,0 +1,5 @@
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Liepzig.Services\bin\Debug\Liepzig.Services.dll.config
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Liepzig.Services\bin\Debug\Liepzig.Services.dll
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Liepzig.Services\bin\Debug\Liepzig.Services.pdb
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Liepzig.Services\obj\Debug\Liepzig.Services.dll
+C:\Users\georg\Documents\GitHub\Forest-Music-Tutorials\Liepzig.Services\obj\Debug\Liepzig.Services.pdb

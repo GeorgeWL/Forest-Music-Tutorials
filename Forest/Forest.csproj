@@ -160,10 +160,12 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LiepzigMusicController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MusicAdminController.cs" />
     <Compile Include="Controllers\MusicController.cs" />
     <Compile Include="Controllers\RecordingsController.cs" />
+    <Compile Include="Controllers\Service.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -240,6 +242,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\LiepzigMusic\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -256,6 +259,10 @@
     <ProjectReference Include="..\Forest.Services\Forest.Services.csproj">
       <Project>{f509666f-6c59-4ff8-a0b2-1f5fa9c5a928}</Project>
       <Name>Forest.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Liepzig.Services\Liepzig.Services.csproj">
+      <Project>{3c942d68-5d4f-48b8-9579-119fab5b305e}</Project>
+      <Name>Liepzig.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
