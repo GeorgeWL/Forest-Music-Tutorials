@@ -1,0 +1,42 @@
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\obj\Debug\Forest.Data.csprojResolveAssemblyReference.cache
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\obj\Debug\Forest.Data.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\obj\Debug\Forest.Data.pdb
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\Forest.Data.dll.config
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\Forest.Data.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\Forest.Data.pdb
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\EntityFramework.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\EntityFramework.SqlServer.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\EntityFramework.xml
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\Forest.Data.dll.config
+F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\Forest.Data.dll
+F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\Forest.Data.pdb
+F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\Forest.Data.dll.CodeAnalysisLog.xml
+F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\Forest.Data.dll.lastcodeanalysissucceeded
+F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\EntityFramework.dll
+F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\EntityFramework.xml
+F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\obj\Debug\Forest.Data.csprojResolveAssemblyReference.cache
+F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\obj\Debug\Forest.Data.dll
+F:\MyWork\Visual Studio 2013\Projects\Forest\Forest.Data\obj\Debug\Forest.Data.pdb
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\Forest.Data.dll.config
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\Forest.Data.dll
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\Forest.Data.pdb
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\EntityFramework.dll
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\EntityFramework.xml
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\obj\Debug\Forest.Data.csprojResolveAssemblyReference.cache
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\obj\Debug\Forest.Data.dll
+F:\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\obj\Debug\Forest.Data.pdb
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\Forest.Data.dll.config
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\Forest.Data.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\Forest.Data.pdb
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\EntityFramework.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\EntityFramework.SqlServer.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\EntityFramework.xml
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\bin\Debug\EntityFramework.SqlServer.xml
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\obj\Debug\Forest.Data.csprojResolveAssemblyReference.cache
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\obj\Debug\Forest.Data.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\8\b1037178\MyWork\git\Forest-Music-Tutorials\Forest\Forest.Data\obj\Debug\Forest.Data.pdb

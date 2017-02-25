@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetMusicRecordings">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="genre" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMusicRecordingsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMusicRecordingsResult" type="tns:ArrayOfMusicBEAN" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfMusicBEAN">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="MusicBEAN" nillable="true" type="tns:MusicBEAN" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MusicBEAN">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Artist" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Genre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Image_Name" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Num_Tracks" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Price" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Stock_Count" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Released" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ArrayOfMusicBEAN" nillable="true" type="tns:ArrayOfMusicBEAN" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetMusicRecordingsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMusicRecordings" />
+  </wsdl:message>
+  <wsdl:message name="GetMusicRecordingsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMusicRecordingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMusicRecordingsHttpGetIn">
+    <wsdl:part name="genre" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMusicRecordingsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfMusicBEAN" />
+  </wsdl:message>
+  <wsdl:message name="GetMusicRecordingsHttpPostIn">
+    <wsdl:part name="genre" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMusicRecordingsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfMusicBEAN" />
+  </wsdl:message>
+  <wsdl:portType name="ForestWebServiceSoap">
+    <wsdl:operation name="GetMusicRecordings">
+      <wsdl:input message="tns:GetMusicRecordingsSoapIn" />
+      <wsdl:output message="tns:GetMusicRecordingsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ForestWebServiceHttpGet">
+    <wsdl:operation name="GetMusicRecordings">
+      <wsdl:input message="tns:GetMusicRecordingsHttpGetIn" />
+      <wsdl:output message="tns:GetMusicRecordingsHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ForestWebServiceHttpPost">
+    <wsdl:operation name="GetMusicRecordings">
+      <wsdl:input message="tns:GetMusicRecordingsHttpPostIn" />
+      <wsdl:output message="tns:GetMusicRecordingsHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ForestWebServiceSoap" type="tns:ForestWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMusicRecordings">
+      <soap:operation soapAction="http://tempuri.org/GetMusicRecordings" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ForestWebServiceSoap12" type="tns:ForestWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMusicRecordings">
+      <soap12:operation soapAction="http://tempuri.org/GetMusicRecordings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ForestWebServiceHttpGet" type="tns:ForestWebServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetMusicRecordings">
+      <http:operation location="/GetMusicRecordings" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ForestWebServiceHttpPost" type="tns:ForestWebServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetMusicRecordings">
+      <http:operation location="/GetMusicRecordings" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ForestWebService">
+    <wsdl:port name="ForestWebServiceSoap" binding="tns:ForestWebServiceSoap">
+      <soap:address location="http://webteach_net.hallam.shu.ac.uk/b1037178/ForestWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ForestWebServiceSoap12" binding="tns:ForestWebServiceSoap12">
+      <soap12:address location="http://webteach_net.hallam.shu.ac.uk/b1037178/ForestWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ForestWebServiceHttpGet" binding="tns:ForestWebServiceHttpGet">
+      <http:address location="http://webteach_net.hallam.shu.ac.uk/b1037178/ForestWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ForestWebServiceHttpPost" binding="tns:ForestWebServiceHttpPost">
+      <http:address location="http://webteach_net.hallam.shu.ac.uk/b1037178/ForestWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

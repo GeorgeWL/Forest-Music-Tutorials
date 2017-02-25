@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ForestDataModelStoreContainer" CdmEntityContainer="ForestEntities">
+    <EntitySetMapping Name="Music_category">
+      <EntityTypeMapping TypeName="ForestDataModel.Music_category">
+        <MappingFragment StoreEntitySet="Music_category">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Genre" ColumnName="Genre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Music_Recording">
+      <EntityTypeMapping TypeName="ForestDataModel.Music_Recording">
+        <MappingFragment StoreEntitySet="Music_Recording">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Artist" ColumnName="Artist" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Genre" ColumnName="Genre" />
+          <ScalarProperty Name="ImageName" ColumnName="ImageName" />
+          <ScalarProperty Name="NumTracks" ColumnName="NumTracks" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="StockCount" ColumnName="StockCount" />
+          <ScalarProperty Name="Released" ColumnName="Released" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
