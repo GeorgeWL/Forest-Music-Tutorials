@@ -18,9 +18,9 @@ namespace Forest.Controllers
         }
         //
         // GET: /LiepzigMusic/
-        public ActionResult Index()
+        public ActionResult Recordings(int genre)
         {
-            return View();
+            return View(_LiepzigMusicService.GetLiepzigMusicRecordings(genre));
         }
 	}
 }

@@ -239,6 +239,7 @@
     <Content Include="Views\MusicAdmin\EditMusicRecording.cshtml" />
     <Content Include="Views\MusicAdmin\AddMusicRecording.cshtml" />
     <Content Include="Views\MusicAdmin\DeleteMusicRecording.cshtml" />
+    <Content Include="Views\Recordings.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
